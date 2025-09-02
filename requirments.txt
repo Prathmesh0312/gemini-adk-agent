@@ -1,0 +1,9 @@
+python-dotenv
+google-adk
+google-adk[web]
+google-genai
+asyncio
+beautifulsoup4
+requests
+urllib3
+httpx
