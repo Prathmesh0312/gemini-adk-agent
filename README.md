@@ -8,25 +8,25 @@ It demonstrates how to set up an agent with tool calls, prompts, and run it in t
 ## Project Structure
 GenAIWebAgent/
 
+    │
+    
+      ├── myagent/
+      
+        │ ├── init.py # Exports root_agent
+        
+        │ ├── agent.py # Defines root_agent (LlmAgent)
+        
+        │ ├── prompt.py # System prompt for the agent
+        
+        │ ├── tools.py # Tool functions (e.g., fetch_url_content)
+
 │
 
-  ├── myagent/
-  
-    │ ├── init.py # Exports root_agent
+    ├── .env # Environment variables (ignored in Git)
     
-    │ ├── agent.py # Defines root_agent (LlmAgent)
+    ├── requirements.txt # Dependencies
     
-    │ ├── prompt.py # System prompt for the agent
-    
-    │ ├── tools.py # Tool functions (e.g., fetch_url_content)
-
-│
-
-├── .env # Environment variables (ignored in Git)
-
-├── requirements.txt # Dependencies
-
-├── .gitignore # Git ignore rules
+    ├── .gitignore # Git ignore rules
 
 
 ---
