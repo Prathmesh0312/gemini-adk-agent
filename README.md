@@ -8,15 +8,15 @@ It demonstrates how to set up an agent with tool calls, prompts, and run it in t
 ## Project Structure
 GenAIWebAgent/
 │
-├── myagent/
-
-│ ├── init.py # Exports root_agent
-
-│ ├── agent.py # Defines root_agent (LlmAgent)
-
-│ ├── prompt.py # System prompt for the agent
-
-│ ├── tools.py # Tool functions (e.g., fetch_url_content)
+  ├── myagent/
+  
+    │ ├── init.py # Exports root_agent
+    
+    │ ├── agent.py # Defines root_agent (LlmAgent)
+    
+    │ ├── prompt.py # System prompt for the agent
+    
+    │ ├── tools.py # Tool functions (e.g., fetch_url_content)
 
 │
 
