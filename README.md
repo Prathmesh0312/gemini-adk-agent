@@ -38,8 +38,8 @@ GenAIWebAgent/
 git clone https://github.com/<your-username>/genai-web-agent.git
 cd genai-web-agent
 
-3. Create a virtual environment
-4. 
+2. Create a virtual environment
+
 python -m venv .venv\Scripts\activate   # Windows
 
 source .venv/bin/activate   # macOS/Linux
@@ -48,12 +48,12 @@ source .venv/bin/activate   # macOS/Linux
 
 pip install -r requirements.txt
 
-5. Configure environment variables
+4. Configure environment variables
 
 Create a .env file in the project root with:
 GEMINI_API_KEY=your_api_key_here
 
-6. Run ADK Web
+5. Run ADK Web
 
 adk web myagent
 
