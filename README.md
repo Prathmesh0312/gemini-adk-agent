@@ -7,7 +7,9 @@ It demonstrates how to set up an agent with tool calls, prompts, and run it in t
 
 ## Project Structure
 GenAIWebAgent/
+
 │
+
   ├── myagent/
   
     │ ├── init.py # Exports root_agent
