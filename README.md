@@ -33,7 +33,6 @@ GenAIWebAgent/
 
 ## Setup
 
-```bash
 # 1. Clone the repo
 git clone https://github.com/<your-username>/genai-web-agent.git
 cd genai-web-agent
