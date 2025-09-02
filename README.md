@@ -1,8 +1,3 @@
-Got it 👍 — here’s the **entire cleaned-up `README.md`** in one block so you can copy-paste directly into your project:
-
----
-
-```markdown
 # GenAI Web Agent
 
 This project is a minimal AI Agent built with Google's **Agent Development Kit (ADK)** and **Gemini** (`gemini-2.5-flash`).  
@@ -11,15 +6,14 @@ It demonstrates how to set up an agent with tool calls, prompts, and run it in t
 ---
 
 ## Project Structure
-```
-
+```plaintext
 GenAIWebAgent/
 │
 ├── myagent/
-│   ├── **init**.py       # Exports root\_agent
-│   ├── agent.py          # Defines root\_agent (LlmAgent)
+│   ├── __init__.py       # Exports root_agent
+│   ├── agent.py          # Defines root_agent (LlmAgent)
 │   ├── prompt.py         # System prompt for the agent
-│   ├── tools.py          # Tool functions (e.g., fetch\_url\_content)
+│   ├── tools.py          # Tool functions (e.g., fetch_url_content)
 │
 ├── .env                  # Environment variables (ignored in Git)
 ├── requirements.txt      # Dependencies
@@ -39,46 +33,30 @@ GenAIWebAgent/
 
 ## Setup
 
-### 1. Clone the repo
 ```bash
+# 1. Clone the repo
 git clone https://github.com/<your-username>/genai-web-agent.git
 cd genai-web-agent
-````
 
-### 2. Create a virtual environment
-
-```bash
+# 2. Create a virtual environment
 python -m venv .venv
 .venv\Scripts\activate   # Windows
 # or
 source .venv/bin/activate   # macOS/Linux
-```
 
-### 3. Install dependencies
-
-```bash
+# 3. Install dependencies
 pip install -r requirements.txt
-```
 
-### 4. Configure environment variables
+# 4. Configure environment variables
+# Create a .env file in the project root with:
+# GEMINI_API_KEY=your_api_key_here
 
-Create a `.env` file in the project root:
-
-```
-GEMINI_API_KEY=your_api_key_here
-```
-
-### 5. Run ADK Web
-
-```bash
+# 5. Run ADK Web
 adk web myagent
-```
 
-Open in your browser:
+# Open in your browser:
+# http://127.0.0.1:8000
 
-```
-http://127.0.0.1:8000
-```
 
 ---
 
@@ -101,6 +79,3 @@ http://127.0.0.1:8000
   * requests
   * beautifulsoup4
 
-
-Do you also want me to generate a **ready-to-use `requirements.txt`** file with pinned versions so your GitHub repo runs exactly the same for anyone cloning it?
-```
